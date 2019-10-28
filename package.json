@@ -1,0 +1,45 @@
+{
+    "name": "tarefas",
+    "version": "0.0.1",
+    "description": "Webservice para lista de tarefas",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RicardoMarino/tarefas.git"
+    },
+    "keywords": [
+        "webservice",
+        "Node.js",
+        "Task",
+        "TaskList"
+    ],
+    "author": "Ricardo Marino da Silva Oliveira",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/RicardoMarino/tarefas/issues"
+    },
+    "homepage": "https://github.com/RicardoMarino/tarefas#readme",
+    "dependencies": {
+        "bcrypt-nodejs": "0.0.3",
+        "body-parse": "^0.1.0",
+        "consign": "^0.1.6",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "jwt-simple": "^0.5.6",
+        "knex": "^0.20.0",
+        "moment": "^2.24.0",
+        "mongodb": "^3.3.3",
+        "mongoose": "^5.7.7",
+        "passport": "^0.4.0",
+        "passport-jwt": "^4.0.0",
+        "pg": "^7.12.1",
+        "pm2": "^4.1.2"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.4"
+    }
+}
